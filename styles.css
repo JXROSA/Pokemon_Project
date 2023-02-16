@@ -74,3 +74,21 @@ background-color: var(--clr-background);
   margin: .25rem;
   word-wrap: normal;
 }
+
+h1{
+  margin:1rem;
+}
+
+.userInputStyling {
+  margin:1rem;
+
+}
+
+.profileEx {
+  width:25%;
+}
+
+.help {
+
+  height:1080px;
+}

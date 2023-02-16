@@ -1,5 +1,11 @@
 # Pokemon_Project
 
+<!-- 
+ - this project is a personal pokemon go website that incorporates all of my favorite websites as the go hub for everything but simplify it for mobile
+ - right now this is the early stages and only working on functionality to then work on css
+
+ -->
+
 <!-- const submit = document.getElementById("submit");
 submit.addEventListener("click", user_XP_input);
 
