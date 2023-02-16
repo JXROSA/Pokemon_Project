@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>XP Calculator</title>
-    <link rel="stylesheet" href="../styles.css" />
+    <title>Xp Calc Info</title>
   </head>
   <body>
-    <header>Pokemon Go Calculator</header>
+    <header>Pokemon Go Stats</header>
     <nav>
       <ul>
         <label for="Home">
@@ -28,28 +27,26 @@
             <a href="/XpCalculator/XpCalc.html">XP Calculator</a>
           </li>
         </label>
-        <label for="xpcalcinfo">
-          <li>
-            <a href="xpcalcinfo.html">info</a>
-          </li>
-        </label>
       </ul>
     </nav>
-
-    <div class="user">
-      <label> Input User XP:</label> <br />
-      <input type="text" id="userXpInput" /> <br />
-      <button type="button" id="submit">Submit</button> <br />
-      <button type="button" id="checkLvlBtn">Check Level</button> <br />
+    <h1>Your Stats</h1>
+    <div>
+      <p id="pRaid"></p>
+      <p id="pRaidEgg"></p>
+      <p id="pRaidEggFriends"></p>
+      <p id="pHoursRaiding"></p>
+      <p id="pOneHD"></p>
     </div>
-    <!-- display stats on screen from javascript -->
+    <h1>Stats to lvl 50</h1>
+    <input type="text" id="userXpInput" />
+    <button id="submit">submit</button>
     <div class="statDisplay">
-      <p class="statItem" id="dLvlNeeded"></p>
-      <p class="statItem" id="dLvlRaid"></p>
-      <p class="statItem" id="dLvlRaidEgg"></p>
-      <p class="statItem" id="dLvlRaidEggFriends"></p>
-      <p class="statItem" id="dhoursRaiding"></p>
-      <p class="statItem" id="doneHD"></p>
+      <p id="dLvlNeeded"></p>
+      <p id="dLvlRaid"></p>
+      <p id="dLvlRaidEgg"></p>
+      <p id="dLvlRaidEggFriends"></p>
+      <p id="dhoursRaiding"></p>
+      <p id="doneHD"></p>
     </div>
     <script src="xpCalculator.js"></script>
   </body>
